@@ -1,0 +1,44 @@
+body{
+    background:green;
+    box-sizing: border-box;
+}
+
+.main{
+    text-align: center;
+}
+.card{
+    
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+     height: 350px;
+    width: 290px;
+    background:white;
+    border-radius:10px;
+    padding: 20px;
+    padding-top: 180px;
+    border: 1px;
+    position: relative;
+    font-size:100px;
+}
+
+.logo-top{
+      position: absolute;
+      top:15px;
+      left:15px;
+      font-size:90px;
+}
+
+.logo-butomm{
+  
+    position: absolute;
+    bottom:15px;
+    right:15px;
+    font-size:90px;
+}
+   
+.red{
+color: red;
+    
+}
+    
