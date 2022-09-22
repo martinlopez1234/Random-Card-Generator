@@ -14,12 +14,12 @@ window.onload =() =>{
     document.querySelector('.number').innerHTML = genNumeros();
     
   };
-  let genNumeros = () =>{
+ function genNumeros(){
           let numbers =["A","2","3","4","5","6","7","8","9","10","J","Q","K"];
           let indexNumbers = Math.floor(Math.random()*numbers.length);
           return numbers[indexNumbers];
   }    
-  let genPintas = () =>{    
+  function genPintas(){    
           let suit = ["&spades;", "&clubs;","&hearts;","&diams;"]
           let indexSuit = Math.floor(Math.random()*suit.length);
           return suit[indexSuit];
